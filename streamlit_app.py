@@ -23,7 +23,7 @@ METHODS = ["SPADE", "PaDiM", "PatchCore"]
 BACKBONES = ["efficientnet_b0", "tf_mobilenetv3_small_100"]
 
 # keep the two smallest datasets
-mvtec_classes = ["hazelnut_reduced", "transistor_reduced"]
+mvtec_classes = ["hazelnut_reduced", "transistor_reduced", "tal"]
 
 def tensor_to_img(x, normalize=False):
     if normalize:
